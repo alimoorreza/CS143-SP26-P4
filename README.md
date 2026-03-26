@@ -18,7 +18,8 @@ is, you need to implement the following functions exactly (or with a small modif
 starter code:
 <ul>
   <li> <a href=""> def actions(self, state): </a>    
-  <li> <a href=""> def result(self, state, move, player): </a>      
+  <li> <a href=""> def result(self, state, move, player): </a> 
+   <li> <a href=""> def utility(self, state, player):  </a> 
 </ul>
 If you significantly alter these function headers or do not use these functions, your code will receive 0 points.
 You are welcome to search the internet for assistance with the assignment. Be sure to give full credit for any
@@ -26,7 +27,14 @@ code cited. However, the foundation of the starter code must be utilized. The as
 the minimax algorithm, not simply copy another implementation.
 
 ## Task 1 (4 points)
-Implement the **minimax algorithm**, including implementing a simple utility function that will reward a “win”
+Implement the **minimax algorithm**, including all the supporting methods as follows:
+<ul>
+  <li> <a href=""> def actions(self, state): </a>    
+  <li> <a href=""> def result(self, state, move, player): </a> 
+   <li> <a href=""> def utility(self, state, player):  </a> 
+</ul>
+
+Utility method can be implemented by a simple utility function that will reward a “win”
 with a positive number and a loss with a negative number. All other configurations should return a 0.
 
 
