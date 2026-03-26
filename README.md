@@ -41,7 +41,12 @@ with a positive number and a loss with a negative number. All other configuratio
 ## Task 2 (3 points)
 Implement a depth parameter that will terminate the search a return the utility function. Completing the
 above requirements should provide enough to allow the computer to play a reasonably interactive game with
-a depth of 4, that will block an opponent when it is about to win.
+a depth of 4, that will block an opponent when it is about to win. If you manage to accomplish this, you
+should be able to play with the AI opponent and here is a sample output on the terminal:
+
+<p align="center">
+  <img src="sample_output.png" alt="Connect Four Game" width="200"/>
+</p>
 
 ## Task 3 (3 points)
 Implement ***α-β* prunning**. You should include in your submission evidence that your implementation
