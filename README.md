@@ -53,44 +53,22 @@ Implement a more sophisticated utility function that provides improved performan
 
 
 
-> You should do a comparative analysis using the table below. Organize and report your results:
+> It's not manadatory but you could do a comparative analysis using the table below to organize and report your results:
 
 
-| **Adversarial search**     | **Number of nodes**| **Number   **  | **Time took** |
-|----------------------------|--------------------|----------------|---------------|
-| minimax                    |                    |                |               |
-| alpha-beta prunning        |                    |                |               |
+| **Adversarial search**     | **Number of nodes**| **Time took** |
+|----------------------------|--------------------|---------------|
+| minimax                    |                    |               |
+| alpha-beta prunning        |                    |               |
 
-
-Also include a text/Markdown cell that addresses the following points:
-
-1. Explain the basis on which the path costs are computed.
-
-2. Specify the heuristic function used.
-
-3. Provide a brief description of the modifications made to the code.
-
-4. Discuss any differences observed—using the comparative table above—in the computed routes, execution time, number of nodes expanded, and related metrics.
-
-5. Conclude by stating which algorithm you recommend, A* Search or Greedy Best-First Search, and justify your choice briefly.
 
 ## Grading
 
 The assignment is worth 10 points. Partial credit (4–6 points) will be awarded if any of the required components are incomplete.
 
-* Up to 2 points: You made code changes that demonstrate a reasonable attempt to complete the implementation of the **SSWSearchNode** class—specifically, by implementing the heuristic function `set_h_value(), set_g_value()`, and `set_f_value()`.
-
-* Up to 4 points: You made code changes that demonstrate a reasonable attempt toward implementing A* search.
-
-* Up to 5 points: You attempted an A* implementation that does not fully work, but you clearly describe the issues encountered and provide your best assessment of how they might be resolved.
-
-* Up to 7 points: You implemented a working version of A* search and attempted a Greedy Best-First Search implementation that does not fully work, but you clearly describe the issues encountered and provide your best assessment of how they might be resolved.
-
-* Up to 8 points: You implemented working versions of both A* search and Greedy Best-First Search and successfully display the maps with the computed routes.
-
-* Up to 10 points: You implemented a working version of A* search, compared its results with your Greedy Best-First Search implementation, and addressed all of the required items in a text/Markdown cell.
+* Up to 4 points: You made code changes that demonstrate a reasonable attempt toward implementing minimax algorithm.
 
 ### Turning it in
 
-Share the notebook in the same way you did for Project 2.
+Share the notebook in the same way you did for Project 3.
 
