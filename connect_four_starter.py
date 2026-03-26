@@ -101,16 +101,20 @@ class ConnectFourGame(Game) :
     def actions(self, state):
         # returns list of numbers corresponding to possible moves
         valid_locations = []
-        for col in range(NUMBER_OF_COLS):
-            if self.is_valid_location(state, col):
-                valid_locations.append(col)
+        # your code
+        # ...
+        # ...
+        # ...        
         return valid_locations
 
 
     def result(self, state, move, player):
         """Return the state that results from making a move from a state."""
-        row = self.get_next_open_row(state, move)
-        state[row][move] = player
+        # you should modify your state[][] list and then return the modified one
+        # your code
+        # ...
+        # ...
+        # ...                
         return state
 
 
@@ -132,8 +136,10 @@ class ConnectFourGame(Game) :
 
     def minimax(self, state, player, depth=0):
 
-        if self.terminal_test(state) or depth == 0:
-            return self.utility(state, player), None
+        # HINT: call self.terminal_test() and or check depth
+        # your code
+        # ...
+        # ...
 
 
         bestMove = -1
@@ -156,8 +162,6 @@ class ConnectFourGame(Game) :
             # ...
             # ...
             # ...
-
-
 
 
         return best, bestMove
